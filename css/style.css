@@ -9279,7 +9279,8 @@ textarea.form-control {
   width: 100%;
   text-align: center;
   background: #191919;
-  padding: 30px 20px;
+  min-height: 150px;
+  padding: 36px 20px 32px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -9287,14 +9288,19 @@ textarea.form-control {
 
 .ftco-counter .text strong.number {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
   color: #ffbd39;
-  display: block; }
+  display: block;
+  line-height: 1.1;
+  margin-bottom: 12px; }
 
 .ftco-counter .text span {
   display: block;
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.8); }
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.35;
+  text-transform: uppercase; }
 
 @media (max-width: 767.98px) {
   .ftco-counter .counter-wrap {
@@ -10015,7 +10021,8 @@ body:before {
 
 .ftco-hireme {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  margin-top: 70px !important; }
 
 .ftco-hireme:before {
   content: "";
