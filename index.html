@@ -144,13 +144,20 @@
 				<div class="container">
 					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
 						data-scrollax-parent="true">
-						<div class="one-third js-fullheight order-md-last img"
+						<div class="one-third js-fullheight order-md-last img hero-visual"
 							style="background-image:url(images/raj.png);">
+							<canvas id="hero-3d" aria-hidden="true"></canvas>
+							<div class="hero-orbit-card card-sql">SQL</div>
+							<div class="hero-orbit-card card-bi">Power BI</div>
+							<div class="hero-orbit-card card-ml">ML</div>
+							<div class="hero-portrait-card">
+								<img src="images/raj.png" alt="Aniket Raj">
+							</div>
 							<div class="overlay"></div>
 						</div>
 						<div class="one-forth d-flex  align-items-center ftco-animate"
 							data-scrollax=" properties: { translateY: '70%' }">
-							<div class="text">
+							<div class="text hero-copy">
 								<span class="subheading">Hello!</span>
 								<h1 class="mb-4 mt-3">I'm <span>Aniket Raj</span></h1>
 
@@ -193,6 +200,13 @@
 								<br>
 								<br>
 								<h2>A Data Analyst</h2>
+								<p class="hero-summary">I turn raw business data into clear dashboards, SQL insights,
+									forecasting models and decisions teams can act on.</p>
+								<div class="hero-metrics">
+									<div><strong>20+</strong><span>Projects</span></div>
+									<div><strong>5</strong><span>Analytics Tools</span></div>
+									<div><strong>92%</strong><span>Forecast Accuracy</span></div>
+								</div>
 								<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
 								<!-- <br> -->
 								<p><a href="https://www.linkedin.com/in/aniket-raj-50111b1b0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bh%2FaSY1CbQ76CWr6t%2BU0tVA%3D%3D"
@@ -280,12 +294,12 @@
 								<h1 class="big">About</h1>
 								<h2 class="mb-4">About Me</h2>
 
-								<p>With over 1 years of comprehensive experience in the field of data
+								<p>With 1+ year of hands-on experience in the field of data
 									analytics, accompanied by a bachelor's degree in engineering.
 									Proficient in data analysis, statistical analysis, hypothesis testing, customer
 									behaviour analysis, &amp; machine learning.
-									Demonstrated success in leading impactful projects and providing effective
-									mentorship.</p>
+									I enjoy building dashboards, automation-ready reports and machine learning
+									experiments that make business performance easier to understand.</p>
 								<ul class="about-info mt-4 px-md-0 px-2">
 									<li class="d-flex"><span>Profile:</span> <span>Data Analytics, MIS Reporting</span>
 									</li>
@@ -330,7 +344,7 @@
 				<div class="col-md-10 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Resume</h1>
 					<h2 class="mb-4">Resume</h2>
-					<p>Data Analyst with 1+ years of experience driving business strategies through
+					<p>Data Analyst with 1+ year of experience driving business strategies through
 						data-driven insights. Proven expertise in data analysis, statistical analysis, machine learning
 						algorithms and project management.</p>
 				</div>
@@ -349,7 +363,7 @@
 						<h2>Data Analyst Intern </h2>
 						<span class="position">Unifide Mentore,</span>
 						<span class="mt-4">Gurugram</span>
-						<p class="mt-4">These company focused on mentoring, training, and skill development. It aims to
+						<p class="mt-4">This company focused on mentoring, training, and skill development. It aims to
 							support students and professionals by providing practical guidance, industry exposure, and
 							learning opportunities.
 						<ul>
@@ -434,12 +448,12 @@
 				<div class="col-md-7 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Projects</h1>
 					<h2 class="mb-4">Projects</h2>
-					<p>Below are the sample Data Analytics projects on SQL, Python, Power BI & ML.</p>
+					<p>Selected analytics work across SQL, Python, Power BI, forecasting and machine learning.</p>
 				</div>
 			</div>
 			<div class="row d-flex">
 				<div class="col-md-4 d-flex ftco-animate">
-					<div class="blog-entry justify-content-end">
+					<div class="blog-entry justify-content-end tilt-card">
 						<a href="https://github.com/aniketraj82/SQL_Music_Store_Analysis/commit/7ba9113c90687878a34f55938b187103a0be0b8f#diff-e807f77db9445b79e55785090e7294732ab07cd188c824506d620c366cd64aa6"
 							class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
 						</a>
@@ -448,13 +462,14 @@
 							<h3 class="heading"><a
 									href="https://github.com/aniketraj82/SQL_Music_Store_Analysis/commit/7ba9113c90687878a34f55938b187103a0be0b8f#diff-e807f77db9445b79e55785090e7294732ab07cd188c824506d620c366cd64aa6">Digital
 									Music Store Data Analysis using SQL</a></h3>
-							<p>Analyzed music store data using advanced SQL queires to identify gaps and increase the
+							<p>Analyzed music store data using advanced SQL queries to identify gaps and increase the
 								business growth.</p>
+							<div class="project-tags"><span>SQL</span><span>EDA</span><span>Business Growth</span></div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 d-flex ftco-animate">
-					<div class="blog-entry justify-content-end">
+					<div class="blog-entry justify-content-end tilt-card">
 						<a href="https://github.com/aniketraj82/Python_Diwali_Sales_Analysis/tree/main"
 							class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
 						</a>
@@ -465,11 +480,12 @@
 									Analysis using Python Project for Beginners</a></h3>
 							<p>Performed exploratory data analysis on diwali sales data using Python to improve the
 								customer experience.</p>
+							<div class="project-tags"><span>Python</span><span>Pandas</span><span>Customer Insights</span></div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 d-flex ftco-animate">
-					<div class="blog-entry">
+					<div class="blog-entry tilt-card">
 						<a href="https://github.com/aniketraj82/Madhav_Store_PowerBI_Dashboard/tree/main"
 							class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
 						</a>
@@ -478,8 +494,9 @@
 							<h3 class="heading"><a
 									href="https://github.com/aniketraj82/Madhav_Store_PowerBI_Dashboard/tree/main">Power
 									BI Sales dashboard Project for Beginners</a></h3>
-							<p>Designed a power bi dashboard for Madhav Store to track and analyze the online sales data
-								acorss India.</p>
+							<p>Designed a Power BI dashboard for Madhav Store to track and analyze online sales data
+								across India.</p>
+							<div class="project-tags"><span>Power BI</span><span>DAX</span><span>Dashboard</span></div>
 						</div>
 					</div>
 				</div>
@@ -488,7 +505,7 @@
 			<!-- added justify-content-center to center align the last two projects -->
 			<div class="row d-flex justify-content-center">
 				<div class="col-md-4 d-flex ftco-animate">
-					<div class="blog-entry justify-content-end">
+					<div class="blog-entry justify-content-end tilt-card">
 						<a href="https://github.com/aniketraj82/Sales_forecasting/tree/main"
 							class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
 						</a>
@@ -499,11 +516,12 @@
 									Time Series Forecasting</a></h3>
 							<p>Used multiple machine learning models to forecast sales (retail store) and performed time
 								series analysis.</p>
+							<div class="project-tags"><span>Forecasting</span><span>ML</span><span>Time Series</span></div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 d-flex ftco-animate">
-					<div class="blog-entry justify-content-end">
+					<div class="blog-entry justify-content-end tilt-card">
 						<a href="https://github.com/aniketraj82/Customer_Segmentation/tree/main"
 							class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
 						</a>
@@ -514,6 +532,7 @@
 									Segmentation using clustering model</a></h3>
 							<p>Developed a ML model to give various recommendations of financial products &amp; services
 								on target customer groups.</p>
+							<div class="project-tags"><span>Clustering</span><span>ML</span><span>Segmentation</span></div>
 						</div>
 					</div>
 				</div>
@@ -584,7 +603,7 @@
 				<div class="col-md-7 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Contact</h1>
 					<h2 class="mb-4">Contact Me</h2>
-					<p>Below are the details to reach out to me!</p>
+					<p>Reach out for data analyst roles, dashboards, reporting automation or analytics projects.</p>
 				</div>
 			</div>
 
@@ -698,6 +717,8 @@
 	<script src="js/jquery.animateNumber.min.js"></script>
 	<script src="js/scrollax.min.js"></script>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+	<script src="js/portfolio-3d.js"></script>
 	<script src="js/main.js"></script>
 
 </body>
